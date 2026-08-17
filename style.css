@@ -1,7 +1,3 @@
-/* =========================
-   Global Style
-========================= */
-
 * {
     margin: 0;
     padding: 0;
@@ -19,11 +15,6 @@ body {
     background: linear-gradient(135deg, #0f172a, #1e293b);
     color: white;
 }
-
-
-/* =========================
-   Typing Text
-========================= */
 
 .type {
     width: 100%;
@@ -44,8 +35,6 @@ body {
 }
 
 
-/* Typing cursor */
-
 @keyframes cursorBlink {
     0%,
     50% {
@@ -58,10 +47,6 @@ body {
     }
 }
 
-
-/* =========================
-   Counter
-========================= */
 
 .counter {
     width: 180px;
@@ -85,8 +70,6 @@ body {
 }
 
 
-/* Counter hover */
-
 .counter:hover {
     transform: translateY(-8px) scale(1.05);
 
@@ -98,9 +81,7 @@ body {
 }
 
 
-/* =========================
-   Mobile Responsive
-========================= */
+/* ========================= Mobile Responsive ========================= */
 
 @media (max-width: 768px) {
 
