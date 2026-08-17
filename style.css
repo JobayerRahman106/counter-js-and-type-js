@@ -1,0 +1,24 @@
+.type{
+    display: inline-block;
+    position: relative;
+}
+
+.type::after{
+    width: 2px;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    animation: blink 0.7s linear infinite;
+}
+
+@keyframes blink{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
