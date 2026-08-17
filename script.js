@@ -1,5 +1,4 @@
 // Counter JS
-
 let counter = document.querySelectorAll(".counter")
 let arr = Array.from(counter)
 
